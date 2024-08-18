@@ -1,0 +1,14 @@
+{
+  "name": "basicexpressserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/Engywook2005/expressServer.git",
+  "author": "Greg Thorson <Engywook2005@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
