@@ -4,12 +4,12 @@ const path = require('path');
 module.exports = {
   entry: [
     'webpack-hot-middleware/client?reload=true',
-    './src/index.js'
+    './app/main.js'
   ],
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'public/js'),
     filename: 'bundle.js',
-    publicPath: '/'
+    publicPath: '/js/'
   },
   mode: 'development',
   module: {
