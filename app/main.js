@@ -1,3 +1,3 @@
 import { greet } from './howdy';
 
-greet('Dr Fish and Grizelda');
+greet('Dr Fish and Grizelda')
